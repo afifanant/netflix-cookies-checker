@@ -21,5 +21,5 @@ Untuk memulai dengan Pemeriksa Cookies Netflix, ikuti langkah-langkah berikut:
 1. **Kloning repositori:**
 
    ```bash
-   git clone https://github.com/nama-pengguna-anda/netflix-cookies-checker.git
+   git clone https://github.com/afifanant/netflix-cookies-checker.git
    cd netflix-cookies-checker
