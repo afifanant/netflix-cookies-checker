@@ -1,8 +1,8 @@
 
 
-# 🎬 **Netflix Cookie Checker**  
+# 🎬 **Netflix Cookies Checker**  
 
-Selamat datang di **Netflix Cookie Checker** — aplikasi berbasis Flask yang memungkinkan Anda memvalidasi file cookie bergaya Netscape untuk menguji akses ke akun Netflix dengan cepat dan akurat.  
+Selamat datang di **Netflix Cookies Checker** — aplikasi berbasis Flask yang memungkinkan Anda memvalidasi file cookie bergaya Netscape untuk menguji akses ke akun Netflix dengan cepat dan akurat.  
 
 ---  
 
