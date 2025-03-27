@@ -1,109 +1,122 @@
 
-# 🎬 Pemeriksa Cookies Netflix
 
-Selamat datang di **Pemeriksa Cookies Netflix**! Ini adalah aplikasi web berbasis Flask yang memungkinkan Anda mengunggah dan memvalidasi file cookies bergaya Netscape untuk menguji akses ke akun Netflix.
+# 🎬 **Netflix Cookie Checker**  
 
----
+Selamat datang di **Netflix Cookie Checker** — aplikasi berbasis Flask yang memungkinkan Anda memvalidasi file cookie bergaya Netscape untuk menguji akses ke akun Netflix dengan cepat dan akurat.  
 
-## ✨ Fitur
+---  
 
-✅ **Validasi Cookies** – Unggah beberapa file cookies untuk memeriksa apakah mereka dapat digunakan untuk login ke Netflix.  
-✅ **Antarmuka Mudah Digunakan** – Antarmuka web yang sederhana dan intuitif.  
-✅ **Hasil Instan** – Dapatkan hasil validasi dengan cepat dan mudah.  
+## ✨ **Fitur Unggulan**  
 
----
+✔️ **Validasi Cookie Cepat** – Unggah beberapa file cookie untuk menguji apakah dapat digunakan untuk login ke Netflix.  
+✔️ **Antarmuka Modern & Intuitif** – Dirancang dengan UI yang bersih dan ramah pengguna.  
+✔️ **Hasil Real-Time** – Dapatkan hasil validasi secara instan dengan indikator keberhasilan yang jelas.  
 
-## 📷 Screenshot
+---  
 
-Berikut adalah tampilan dari antarmuka aplikasi:
+## 📸 **Tampilan Antarmuka**  
 
-**🏠 Halaman Utama**  
+Cuplikan layar dari aplikasi:  
+
+### 🏠 **Halaman Utama**  
 ![Halaman Utama](https://raw.githubusercontent.com/afifanant/netflix-cookies-checker/main/ss-1.png)  
 
-**✅ Hasil Validasi**  
+### ✅ **Hasil Validasi**  
 ![Hasil Validasi](https://raw.githubusercontent.com/afifanant/netflix-cookies-checker/main/ss-2.png)  
 
----
+> ⚠️ **Catatan:** Pastikan file gambar `ss-1.png` dan `ss-2.png` tersedia di repositori dengan jalur yang benar.  
 
-## 🚀 Prasyarat
+---  
 
-Pastikan Anda memiliki perangkat lunak berikut terpasang di sistem Anda:
+## 🚀 **Prasyarat**  
 
-- Python 3.x  
-- Flask  
-- Requests  
+Sebelum memulai, pastikan sistem Anda telah terinstal perangkat lunak berikut:  
 
----
+- **Python 3.x**  
+- **Flask**  
+- **Requests**  
 
-## 🔧 Instalasi
+---  
 
-Ikuti langkah-langkah berikut untuk mengatur proyek ini di mesin lokal Anda:
+## 🔧 **Instalasi**  
 
-1. **Kloning repositori:**
+Ikuti langkah-langkah berikut untuk menyiapkan proyek di mesin lokal Anda:  
 
-   ```bash
-   git clone https://github.com/afifanant/netflix-cookies-checker.git
-   cd netflix-cookies-checker
-   ```
+### 1. **Klon repositori**  
+```bash
+git clone https://github.com/afifanant/netflix-cookies-checker.git
+cd netflix-cookies-checker
+```  
 
-2. **Buat lingkungan virtual:**
+### 2. **Buat lingkungan virtual**  
+```bash
+python -m venv venv
+source venv/bin/activate   # Untuk Windows: venv\Scripts\activate
+```  
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # Pada Windows gunakan `venv\Scripts\activate`
-   ```
+### 3. **Instal dependensi**  
+```bash
+pip install -r requirements.txt
+```  
 
-3. **Instal dependensi:**
+---  
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+## 🏃 **Cara Menjalankan**  
 
----
-
-## 🏃 Penggunaan
-
-1. **Jalankan aplikasi Flask:**
-
-   ```bash
-   python app.py
-   ```
+1. **Jalankan aplikasi Flask:**  
+```bash
+python app.py
+```  
 
 2. **Akses aplikasi:**  
-   Buka browser Anda dan navigasikan ke [`http://localhost:8080`](http://localhost:8080).
+Buka browser dan masukkan: [`http://localhost:8080`](http://localhost:8080)  
 
-3. **Unggah File Cookies:**  
-   Gunakan antarmuka web untuk mengunggah file cookies dan lihat hasil validasinya.
+3. **Unggah File Cookie:**  
+Gunakan antarmuka untuk mengunggah file cookie dan lihat status validasinya secara real-time.  
 
 4. **Demo Online:**  
-   Coba aplikasi ini secara online di [Pemeriksa Cookies Netflix Online](https://afifanant.pythonanywhere.com/).
+Coba aplikasi secara langsung di: [Netflix Cookie Checker Online](https://afifanant.pythonanywhere.com)  
+
+---  
+
+## ⚙️ **Bagaimana Cara Kerjanya?**  
+
+1. **Parsing Cookie**  
+   - Aplikasi membaca file cookie dalam format Netscape dan menyimpannya ke dalam `RequestsCookieJar`.  
+
+2. **Validasi Login**  
+   - Cookie yang diunggah digunakan untuk mengakses halaman Netflix dan mengonfirmasi status login berdasarkan respons dari server Netflix.  
+
+3. **Tampilan Hasil**  
+   - Status validasi akan ditampilkan dengan jelas, termasuk pesan kesalahan jika login gagal.  
+
+---  
+
+## 🤝 **Kontribusi**  
+
+💡 Kami selalu menyambut kontribusi dari komunitas!  
+- Jika Anda menemukan bug atau memiliki ide perbaikan, silakan buka *issue* atau kirimkan *pull request*.  
+- Pastikan untuk mengikuti pedoman kontribusi sebelum mengirimkan perubahan.  
+
+---  
+
+## 📄 **Lisensi**  
+
+Proyek ini dilisensikan di bawah **Lisensi MIT**. Lihat [LICENSE](LICENSE) untuk detail selengkapnya.  
+
+---  
+
+## 👨‍💻 **Pengembang**  
+
+Dikembangkan oleh **Afif Ananta**.  
+Jika Anda memiliki pertanyaan atau masalah, jangan ragu untuk menghubungi saya melalui GitHub atau email.  
+
+---  
+
+💼 **Netflix Cookie Checker** — Solusi cepat dan efektif untuk memvalidasi cookie Netflix Anda. 🚀  
 
 ---
 
-## 🛠️ Cara Kerja
-
-1. **Parsing Cookies** – Aplikasi memparsing cookies dalam format Netscape dan menyimpannya dalam `RequestsCookieJar`.  
-2. **Validasi** – Cookies digunakan untuk mengakses halaman penelusuran Netflix dan menentukan login yang berhasil berdasarkan respons yang diterima.  
-3. **Tampilan Hasil** – Hasil validasi ditampilkan dengan jelas, menunjukkan status login masing-masing file.  
+### 🔥 **Instal sekarang dan mulai uji cookie Netflix Anda dengan mudah!**  
 
 ---
-
-## 🤝 Kontribusi
-
-Kami menyambut kontribusi dari siapa saja! Jika Anda memiliki saran atau perbaikan, silakan buka *issue* atau kirimkan *pull request*.
-
----
-
-## 📄 Lisensi
-
-Proyek ini dilisensikan di bawah **Lisensi MIT**. Lihat [LICENSE](LICENSE) untuk informasi lebih lanjut.
-
----
-
-## 👨‍💻 Penulis
-
-Dikembangkan oleh **Afif Ananta**. Jika Anda memiliki pertanyaan atau masalah, jangan ragu untuk menghubungi saya.
-
----
-
-Terima kasih telah menggunakan **Pemeriksa Cookies Netflix**! 🚀
