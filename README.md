@@ -11,6 +11,18 @@ Selamat datang di **Pemeriksa Cookies Netflix**! Ini adalah aplikasi web berbasi
 - ⚡ **Antarmuka Mudah Digunakan:** Antarmuka web yang sederhana dan intuitif.
 - 📊 **Hasil Instan:** Dapatkan hasil validasi dengan cepat dan mudah.
 
+## 📷 Screenshot
+
+Berikut adalah tampilan dari antarmuka aplikasi:
+
+- **Halaman Utama:**
+
+  ![Halaman Utama](ss-1.png)
+
+- **Hasil Validasi:**
+
+  ![Hasil Validasi](ss-2.png)
+
 ## 🚀 Prasyarat
 
 Pastikan Anda memiliki perangkat lunak berikut terpasang:
@@ -88,6 +100,5 @@ Terima kasih telah menggunakan Pemeriksa Cookies Netflix! Jika Anda memiliki per
 
 ### Catatan:
 
-- Pastikan untuk mengganti `nama-pengguna-anda` dengan nama pengguna GitHub Anda yang sebenarnya dalam tautan repositori.
-- Anda dapat menambahkan lebih banyak emoji atau elemen gaya lain sesuai keinginan untuk membuat README lebih menarik.
-- Buat file `requirements.txt` jika belum ada, dengan menjalankan `pip freeze > requirements.txt` dalam lingkungan virtual Anda.
+- Pastikan bahwa file gambar `ss-1.png` dan `ss-2.png` ada di direktori yang sama dengan file README.md Anda.
+- Anda dapat menyesuaikan deskripsi dan urutan screenshot sesuai dengan kebutuhan dan tampilan aplikasi Anda.
