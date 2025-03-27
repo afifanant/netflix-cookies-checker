@@ -24,7 +24,6 @@ Cuplikan layar dari aplikasi:
 ### ✅ **Hasil Validasi**  
 ![Hasil Validasi](https://raw.githubusercontent.com/afifanant/netflix-cookies-checker/main/ss-2.png)  
 
-> ⚠️ **Catatan:** Pastikan file gambar `ss-1.png` dan `ss-2.png` tersedia di repositori dengan jalur yang benar.  
 
 ---  
 
