@@ -23,8 +23,6 @@ Berikut adalah tampilan dari antarmuka aplikasi:
 **✅ Hasil Validasi**  
 ![Hasil Validasi](https://raw.githubusercontent.com/afifanant/netflix-cookies-checker/main/ss-2.png)  
 
-> **Catatan:** Pastikan file gambar `ss-1.png` dan `ss-2.png` ada di repositori Anda dengan jalur yang benar.
-
 ---
 
 ## 🚀 Prasyarat
