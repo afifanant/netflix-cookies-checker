@@ -1,4 +1,4 @@
-
+Apologies for the oversight. To ensure that images render correctly in GitHub Markdown, you need to use the direct URL to the raw image file. Let's correct that:
 
 ```markdown
 # 🎬 Pemeriksa Cookies Netflix
@@ -17,11 +17,11 @@ Berikut adalah tampilan dari antarmuka aplikasi:
 
 - **Halaman Utama:**
 
-  ![Halaman Utama](https://github.com/afifanant/netflix-cookies-checker/blob/main/ss-1.png?raw=true)
+  ![Halaman Utama](https://raw.githubusercontent.com/afifanant/netflix-cookies-checker/main/ss-1.png)
 
 - **Hasil Validasi:**
 
-  ![Hasil Validasi](https://github.com/afifanant/netflix-cookies-checker/blob/main/ss-2.png?raw=true)
+  ![Hasil Validasi](https://raw.githubusercontent.com/afifanant/netflix-cookies-checker/main/ss-2.png)
 
 ## 🚀 Prasyarat
 
@@ -100,5 +100,5 @@ Terima kasih telah menggunakan Pemeriksa Cookies Netflix! Jika Anda memiliki per
 
 ### Catatan:
 
-- Pastikan bahwa file gambar `ss-1.png` dan `ss-2.png` ada di direktori yang sama dengan file README.md Anda.
-- Anda dapat menyesuaikan deskripsi dan urutan screenshot sesuai dengan kebutuhan dan tampilan aplikasi Anda.
+- Pastikan bahwa gambar `ss-2.png` juga ada di repositori Anda dengan jalur yang benar. Anda bisa mengganti tautan dengan yang sesuai jika lokasinya berbeda.
+- Selalu gunakan tautan langsung ke gambar mentah (`raw`) untuk memastikan gambar muncul di Markdown.
