@@ -17,11 +17,11 @@ Berikut adalah tampilan dari antarmuka aplikasi:
 
 - **Halaman Utama:**
 
-  ![Halaman Utama](ss-1.png)
+  ![Halaman Utama](https://github.com/afifanant/netflix-cookies-checker/blob/main/ss-1.png?raw=true)
 
 - **Hasil Validasi:**
 
-  ![Hasil Validasi](ss-2.png)
+  ![Hasil Validasi](https://github.com/afifanant/netflix-cookies-checker/blob/main/ss-2.png?raw=true)
 
 ## 🚀 Prasyarat
 
