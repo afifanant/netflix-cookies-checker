@@ -26,7 +26,7 @@ Ikuti langkah-langkah berikut untuk mengatur proyek ini di mesin lokal Anda:
 1. **Kloning repositori ini:**
 
    ```bash
-   git clone https://github.com/nama-pengguna-anda/netflix-cookies-checker.git
+   git clone https://github.com/afifanant/netflix-cookies-checker.git
    cd netflix-cookies-checker
    ```
 
